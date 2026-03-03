@@ -44,7 +44,7 @@ export default function AboutPage() {
                                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-xs font-medium text-primary uppercase tracking-wider mb-6">
                                     <Camera className="w-3 h-3" /> Digital Craftsman
                                 </div>
-                                <h1 className="text-5xl sm:text-7xl font-bold text-foreground leading-tight tracking-tight mb-8">
+                                <h1 className="text-5xl font-bold text-foreground leading-tight tracking-tight mb-8">
                                     The Story Behind The <span className="text-primary">Craft</span>
                                 </h1>
                                 <p className="text-xl text-muted-foreground leading-relaxed max-w-xl">
@@ -54,18 +54,16 @@ export default function AboutPage() {
                             <div className="relative">
                                 <div className="aspect-3/4 rounded-2xl overflow-hidden border border-border shadow-2xl relative z-10">
                                     <img
-                                        src="/edgar-headshot.png"
+                                        src="/profile.avif"
                                         alt="Edgar Espinoza - Digital Craftsman"
                                         className="w-full h-full object-cover"
                                     />
                                 </div>
                                 <div className="absolute -top-10 -right-10 w-40 h-40 bg-primary/20 rounded-full blur-[80px] -z-10" />
                                 <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-accent/20 rounded-full blur-[80px] -z-10" />
-                                <div className="absolute top-1/2 -right-12 -translate-y-1/2 hidden xl:block">
-                                    <div className="bg-card border border-border p-6 rounded-xl shadow-xl space-y-2 max-w-[200px]">
-                                        <p className="text-2xl font-bold text-primary">8+ Years</p>
-                                        <p className="text-sm font-semibold text-foreground">Solving technical challenges with creative solutions.</p>
-                                    </div>
+                                <div className="absolute -bottom-8 -right-4 bg-card border border-border p-6 rounded-xl shadow-xl space-y-2 max-w-[200px] z-20">
+                                    <p className="text-2xl font-bold text-primary">8+ Years</p>
+                                    <p className="text-sm font-semibold text-foreground">Solving technical challenges with creative solutions.</p>
                                 </div>
                             </div>
                         </div>

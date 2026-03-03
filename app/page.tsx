@@ -203,7 +203,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-primary/20 rounded-2xl blur-3xl opacity-0 group-hover:opacity-40 transition-opacity duration-700" />
               <div className="relative aspect-square rounded-2xl overflow-hidden border border-border shadow-2xl transition-transform duration-700 group-hover:scale-[1.01]">
                 <img
-                  src="/edgar-headshot.png"
+                  src="/profile.avif"
                   alt="Edgar Espinoza - Digital Craftsman"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 />
